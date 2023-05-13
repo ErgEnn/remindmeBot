@@ -1,0 +1,17 @@
+{
+    "name": "remindme-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "keywords": [],
+    "author": "Ergo Enn",
+    "license": "MIT",
+    "dependencies": {
+        "agenda": "^5.0.0",
+        "chrono-node": "^2.6.3",
+        "facebook-chat-api": "^1.8.0"
+    }
+}

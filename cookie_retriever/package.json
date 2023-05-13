@@ -1,0 +1,14 @@
+{
+  "name": "cookie_retriever",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Ergo Enn",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^20.2.0"
+  }
+}
