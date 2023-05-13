@@ -14,7 +14,7 @@ services:
     environment:
       - dbUrl=mongodb:27017/remindmebot
     restart: unless-stopped
-    .depends_on:
+    depends_on:
       - mongodb
     volumes:
       - ./appstate.json:/usr/src/app/appstate.json
